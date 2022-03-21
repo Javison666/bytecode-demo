@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{03d9bd22-0245-4b1c-b1f3-4b2e9cc2a433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v8">
+      <UniqueIdentifier>{a1997fd4-716e-481d-9735-73336dfde0b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v8\zlib">
+      <UniqueIdentifier>{c099a864-79e9-4e28-b58b-ff5e0a552cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v8\zlib\contrib">
+      <UniqueIdentifier>{0b9d8b07-4e75-4caa-add9-602cd855cbf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v8\zlib\contrib\optimizations">
+      <UniqueIdentifier>{5a5f899a-0b75-4a08-9510-e7696c1b2961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="v8\zlib\patches">
+      <UniqueIdentifier>{cdff7001-1cb9-4f44-bf00-6365fcfd556b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bytecode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\src\utils\memcopy.cc">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\compress.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\cpu_features.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\crc_folding.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\crc32.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\crc32_simd.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\deflate.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\fill_window_sse.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\gzclose.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\gzlib.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\gzread.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\gzwrite.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\infback.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\inffast.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\inflate.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\inftrees.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\trees.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\uncompr.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\zutil.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\adler32.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\adler32_simd.c">
+      <Filter>v8\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\contrib\optimizations\inflate.c">
+      <Filter>v8\zlib\contrib\optimizations</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\v8\third_party\zlib\contrib\optimizations\inffast_chunk.c">
+      <Filter>v8\zlib\contrib\optimizations</Filter>
+    </ClCompile>
+    <ClCompile Include="bc_header.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bc_payload.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deps\v8\src\utils\memcopy.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\chromeconf.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\cpu_features.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\crc32.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\crc32_simd.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\deflate.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\gzguts.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\inffast.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\inffixed.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\inflate.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\inftrees.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\trees.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\zconf.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\zlib.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\zutil.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\adler32_simd.h">
+      <Filter>v8\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\contrib\optimizations\insert_string.h">
+      <Filter>v8\zlib\contrib\optimizations</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\contrib\optimizations\slide_hash_neon.h">
+      <Filter>v8\zlib\contrib\optimizations</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\contrib\optimizations\chunkcopy.h">
+      <Filter>v8\zlib\contrib\optimizations</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\v8\third_party\zlib\contrib\optimizations\inffast_chunk.h">
+      <Filter>v8\zlib\contrib\optimizations</Filter>
+    </ClInclude>
+    <ClInclude Include="node_pch.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bc_header.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="deps\v8\third_party\zlib\DIR_METADATA">
+      <Filter>v8\zlib</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\LICENSE">
+      <Filter>v8\zlib</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\OWNERS">
+      <Filter>v8\zlib</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\README.chromium">
+      <Filter>v8\zlib</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\BUILD.gn">
+      <Filter>v8\zlib</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\patches\0003-uninitializedjump.patch">
+      <Filter>v8\zlib\patches</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\patches\0004-fix-uwp.patch">
+      <Filter>v8\zlib\patches</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\patches\0005-infcover-gtest.patch">
+      <Filter>v8\zlib\patches</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\patches\0006-fix-check_match.patch">
+      <Filter>v8\zlib\patches</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\patches\0007-zero-init-deflate-window.patch">
+      <Filter>v8\zlib\patches</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\patches\0008-minizip-zip-unzip-tools.patch">
+      <Filter>v8\zlib\patches</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\patches\README">
+      <Filter>v8\zlib\patches</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\patches\0000-build.patch">
+      <Filter>v8\zlib\patches</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\patches\0001-simd.patch">
+      <Filter>v8\zlib\patches</Filter>
+    </None>
+    <None Include="deps\v8\third_party\zlib\patches\0002-uninitializedcheck.patch">
+      <Filter>v8\zlib\patches</Filter>
+    </None>
+  </ItemGroup>
+</Project>
